@@ -1,4 +1,4 @@
 # Browser Grains
 
 ## Diagram
-![Draw.io Diagram](https://ibb.co/Jn9pRK8)
+![Draw.io](https://i.ibb.co/gyxWM3Q/Untitled-Diagram-drawio.png)

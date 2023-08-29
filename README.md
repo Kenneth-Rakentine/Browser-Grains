@@ -151,6 +151,9 @@ Knobs/Fader Icons:
 
 
 ```
+#### Credits:
+- Stable Diffusion: image generation for logo
+- Draw.io: Diagram
 
 #### Roadmap:
 

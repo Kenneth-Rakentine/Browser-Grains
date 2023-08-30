@@ -15,7 +15,7 @@
 
 ---
 
-![screenshot 1]()
+![Figma design skeleton](https://i.ibb.co/j3KXz2K/figma-grainform-wireframe-start-8-29-23.png)
 
 ![screenshot 2]()
 
@@ -227,9 +227,9 @@ Mod 3: A MERN Stack Application & TribleByte:
 
 ~~~~~~~~~
 Overview
-You’ve come a long way, and it's time to show it. This will be your most advanced project to date.
 
-🚨   Before you start working on the planning for your project, be sure to review your idea with an instructional team to ensure that it both:
+
+🚨 ensure that project:
 
 ✅   Meets the minimum requirements
 

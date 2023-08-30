@@ -1,6 +1,16 @@
 # Browser Grains
 
 **a web based granular sampler application**
+
+some naming ideas:
+//GrainForm
+//Grains
+//texture synthesizer
+//particule sculpter
+//Waveform Particulate: Sculpting granular landscapes in Your Browser
+
+
+
 ![Logo](https://i.ibb.co/WytbkvR/Grains-Logo-1.png)
 
 
@@ -46,24 +56,28 @@ DUE: september 7th
 
 ---
 
+Create a web/browser version of a max msp granular sampler with drag-and-drop sample audio import function where a logged-in user can begin a new "Project", where the sampler object exists, manipualte the imported audio of their choice with the sampler tool using the given gui parameters provided between js/REACT and max msp via RNBO library, and save the project 'state' or project settings (imported samples, etc) and potentially share with other users and even externally
+
+the goal is to give the user a particle-based audio manipulation tool where they can turn samples into fragments of audio and smear the result into a cloud without ther need to download and install a vst plugin or standalone application to their pc/device
+
 PARAMS: 
--LFO for scrub playback start position, 
--window shape/env, 
--scatter/spread, 
--grain size, 
--pitch(?), 
--grain density/amount/num, 
--pan/width, 
--playback speed, 
--grain rate(?)
--play button/mute-stop button
--sample import/drop box (in waveform display window? also list of imported?)
+- LFO for scrub playback start position, 
+- window shape/env, 
+- scatter/spread, 
+- grain size, 
+- pitch(?), 
+- grain density/amount/num, 
+- pan/width, 
+- playback speed, 
+- grain rate(?)
+- play button/mute-stop button
+- sample import/drop box (in waveform display window? also list of imported?)
 
 CRUD:
--create new project including imported sample(s) & settings
--read sample(?)
--edit project (main process)
--delete project
+- Create new project including imported sample(s) & settings
+- Read sample(?)
+- Edit project (main process)
+- Ddelete project
 
  `USER SIGN IN & SHARE PROJECT(?)
 

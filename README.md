@@ -58,7 +58,7 @@ DUE: september 7th
 
 Create a web/browser version of a max msp granular sampler with drag-and-drop sample audio import function where a logged-in user can begin a new "Project", where the sampler object exists, manipulate the imported audio of their choice with the sampler tool using the given gui parameters provided between js/REACT and max msp via RNBO library, and save the project 'state' or project settings (imported samples, etc) and potentially share with other users and even externally
 
-the goal is to give the user a particle-based audio manipulation tool where they can morph samples into fragments of audio and smear the result into a cloud without the need to download and install a vst plugin or standalone application to their pc/device
+the goal is to give the user a particle-based audio manipulation tool where they can morph samples into fragments of audio and smear the result into a textured 'cloud' without the need to download and install a vst plugin or standalone application to their pc/device
 
 PARAMS: 
 - LFO for scrub playback start position, 
@@ -77,7 +77,7 @@ CRUD:
 - Create new project including imported sample(s) & settings
 - Read sample(?)
 - Edit project (main process)
-- Ddelete project
+- Delete project
 
  `USER SIGN IN & SHARE PROJECT(?)
 

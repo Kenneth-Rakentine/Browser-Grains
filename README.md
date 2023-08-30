@@ -142,12 +142,12 @@ Another GOOD Export and Js Code Tutorial for RNBO: https://www.youtube.com/watch
 
 CodePen of the abl LFO Animation w/html-css-js: https://codepen.io/team/cycling74/pen/BaxOzmL/320ebc13dfe1a5a20484858f2266e90a
 
-Knobs/Fader Icons: 
-~Vue round Slider: https://www.npmjs.com/package/vue-round-slider
-~React Rotary Knob: https://www.npmjs.com/package/react-rotary-knob
-~React Dial Knob: https://www.npmjs.com/package/react-dial-knob
-~React Community Slider: https://www.npmjs.com/package/@react-native-community/slider
-~React red Slider: https://www.npmjs.com/package/react-slider
+**Knobs/Fader Icons:** 
+    - Vue round Slider: https://www.npmjs.com/package/vue-round-slider
+    - React Rotary Knob: https://www.npmjs.com/package/react-rotary-knob
+    - React Dial Knob: https://www.npmjs.com/package/react-dial-knob
+    - React Community Slider: https://www.npmjs.com/package/@react-native-community/slider
+    - React red Slider: https://www.npmjs.com/package/react-slider
 
 
 ### Tech/Framework

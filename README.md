@@ -5,9 +5,9 @@
 some naming ideas:
 //GrainForm
 //Grains
-//texture synthesizer
-//particule sculpter
-//Waveform Particulate: Sculpting granular landscapes in Your Browser
+//Texture Synthesizer
+//Particule Sculptor
+//Waveform Particulate: *Sculpting Granular Landscapes in Your Browser*
 
 
 

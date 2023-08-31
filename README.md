@@ -56,9 +56,9 @@ DUE: september 7th
 
 ---
 
-Create a web/browser version of a max msp granular sampler with drag-and-drop sample audio import function where a logged-in user can begin a new "Project", where the sampler object exists, manipulate the imported audio of their choice with the sampler tool using the given gui parameters provided between js/REACT and max msp via RNBO library, and save the project 'state' or project settings (imported samples, etc) and potentially share with other users and even externally
+*Create a web/browser version of a max msp granular sampler with drag-and-drop sample audio import function where a logged-in user can begin a new "Project", where the sampler object exists, manipulate the imported audio of their choice with the sampler tool using the given gui parameters provided between js/REACT and max msp via RNBO library, and save the project 'state' or project settings (imported samples, etc) and potentially share with other users and even externally*
 
-the goal is to give the user a particle-based audio manipulation tool where they can morph samples into fragments of audio and smear the result into a textured 'cloud' without the need to download and install a vst plugin or standalone application to their pc/device
+*the goal is to give the user a particle-based audio manipulation tool where they can morph samples into fragments of audio and smear the result into a textured 'cloud' without the need to download and install a vst plugin or standalone application to their pc/device*
 
 PARAMS: 
 - LFO for scrub playback start position, 
@@ -85,69 +85,68 @@ CRUD:
 
 <br>
 
-RNBO & JS TUTORIAL: https://www.youtube.com/watch?v=fzfGYsIsAKg&ab_channel=lttcmd   ***
+[RNBO & JS TUTORIAL](https://www.youtube.com/watch?v=fzfGYsIsAKg&ab_channel=lttcmd) *
 
-@rnbo/js: (https://socket.dev/npm/package/@rnbo/js) 
-npm install @rnbo/js
-JavaScript runtime for using exported RNBO Patchers in a Web Browser
+[@rnbo/js](https://socket.dev/npm/package/@rnbo/js) 
+```npm install @rnbo/js```
+*JavaScript runtime for using exported RNBO Patchers in a Web Browser*
 
 RNBO Javascript API reference: https://rnbo.cycling74.com/js
 
-Js Webpage Template: https://github.com/Cycling74/rnbo.example.webpage
- & https://rnbo.cycling74.com/explore/javascript-webpage-template
+[Js Web Template Github](https://github.com/Cycling74/rnbo.example.webpage)
+ & 
+ [Js Webpage Template Guide](https://rnbo.cycling74.com/explore/javascript-webpage-template)
 
 Web Audio API & AUDIOWORKLET
 
-Web Integration of a granular synthesizer using RNBO in Max/MSP PDF: https://projekter.aau.dk/projekter/files/535868106/Master_Thesis__1_.pdf
- https://codesandbox.io/s/fhczyi <- rnbo web granulator js codesandbox 
+[Web Integration of a granular synthesizer using RNBO in Max/MSP PDF](https://projekter.aau.dk/projekter/files/535868106/Master_Thesis__1_.pdf)
 
-lAERNING sYNTHS & rnbo: https://rnbo.cycling74.com/explore/learning-synths-and-rnbo
+[RNBO web granulator js codesandbox ](https://codesandbox.io/s/fhczyi) 
 
-alternatives: Gibber, PureData & WebPD
+[Learning Synths w/RNBO](https://rnbo.cycling74.com/explore/learning-synths-and-rnbo)
+*alternatives: Gibber, PureData & WebPD*
 
-Processing.js(?): https://processing.org/tutorials/gettingstarted
+[Processing.js](https://processing.org/tutorials/gettingstarted)
 
-Including the RNBO patch using JavaScript:
+**Including the RNBO patch using JavaScript:**
 In order to actually include the audio processing, a JavaScript (JS) application was
 created. First of all, AudioContext - a Web Audio API interface, where all audio
 processing is happening - was initiated. AduioContext was responsible not only for
 sound processing but also outputting audio on a website. Stopping and resuming
 the AudioContext will do the same to the audio output
 
-RNBO BUFFER GRANULATOR Object: https://docs.cycling74.com/max8/refpages/rnbo_granulator~
+[RNBO BUFFER GRANULATOR Object](https://docs.cycling74.com/max8/refpages/rnbo_granulator~)
 
-AudioWorklet: https://developer.mozilla.org/en-US/docs/Web/API/AudioWorklet
+[AudioWorklet](https://developer.mozilla.org/en-US/docs/Web/API/AudioWorklet)
 
-learn the Web Export Target: https://rnbo.cycling74.com/learn/the-web-export-target
+[Learn the Web Export Target](https://rnbo.cycling74.com/learn/the-web-export-target)
 
-WebAudio API: https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API
+[WebAudio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API)
 
-Reddit FM Synth REACT RNBO Github: https://github.com/StuartMellor/Max-MSP-RNBO-Web-React-Simple-FM/tree/main/Node%20App
+[Reddit FM Synth REACT RNBO Github](https://github.com/StuartMellor/Max-MSP-RNBO-Web-React-Simple-FM/tree/main/Node%20App)
 
-RNBO GRanular Web Synth: https://sllewmas.github.io/rnbo/
+[RNBO GRanular Web Synth](https://sllewmas.github.io/rnbo/)
 
-**GOOD HTML5 multi-touch Granular SYNTH (very close to my ieda) github:
-https://github.com/zya/granular
+[HTML5 multi-touch Granular SYNTH github](https://github.com/zya/granular)
 
-this "Nebula" github might help with waveform visualization: https://github.com/nthe/nebula
+[Nebula Project Github](https://github.com/nthe/nebula)
 
-Grainflow Max Msp App: https://github.com/composingcap/grainflow-basic-granulator-app?fbclid=IwAR3Q4sDQwuSJlqS6YVShAlIeL6GlTZERZ-8FMvEeoAhBtRVngusOznSQPmU
+[Grainflow Max Msp App](https://github.com/composingcap/grainflow-basic-granulator-app?fbclid=IwAR3Q4sDQwuSJlqS6YVShAlIeL6GlTZERZ-8FMvEeoAhBtRVngusOznSQPmU)
 
-TO EXPORT FROM Max Msp RNBO: (must be inside of an open OBJECT which is exportable, and the EXPORT icon will appear on the right side of the newe object Window) *
+*TO EXPORT FROM Max Msp RNBO: (must be inside of an open OBJECT which is exportable, and the EXPORT icon will appear on the right side of the newe object Window)*
 
-RNBO EXPORT TUTORIAL: 
-https://www.youtube.com/watch?v=Q3S3BD1LnCY&ab_channel=MelodyLoveless
+[RNBO EXPORT TUTORIAL](https://www.youtube.com/watch?v=Q3S3BD1LnCY&ab_channel=MelodyLoveless)
 
-Another GOOD Export and Js Code Tutorial for RNBO: https://www.youtube.com/watch?v=1HVT1hsuKsA&ab_channel=lttcmd
+[Another GOOD Export and Js Code Tutorial for RNBO](https://www.youtube.com/watch?v=1HVT1hsuKsA&ab_channel=lttcmd)
 
-CodePen of the abl LFO Animation w/html-css-js: https://codepen.io/team/cycling74/pen/BaxOzmL/320ebc13dfe1a5a20484858f2266e90a
+[CodePen of the abl LFO Animation w/html-css-js](https://codepen.io/team/cycling74/pen/BaxOzmL/320ebc13dfe1a5a20484858f2266e90a)
 
 **Knobs/Fader Icons:** 
-- Vue round Slider: https://www.npmjs.com/package/vue-round-slider
-- React Rotary Knob: https://www.npmjs.com/package/react-rotary-knob
-- React Dial Knob: https://www.npmjs.com/package/react-dial-knob
-- React Community Slider: https://www.npmjs.com/package/@react-native-community/slider
-- React red Slider: https://www.npmjs.com/package/react-slider
+- [Vue round Slider:](https://www.npmjs.com/package/vue-round-slider)
+- [React Rotary Knob:](https://www.npmjs.com/package/react-rotary-knob)
+- [React Dial Knob:](https://www.npmjs.com/package/react-dial-knob)
+- [React Community Slider:](https://www.npmjs.com/package/@react-native-community/slider)
+- [React red Slider:](https://www.npmjs.com/package/react-slider)
 
 
 ### Tech/Framework
@@ -219,25 +218,24 @@ TOOLS
 
 socket.io
 
-trello: https://trello.com/b/ErKkj91p/mod-3-project
+[trello:](https://trello.com/b/ErKkj91p/mod-3-project)
 
-https://dbdiagram.io/home
+[DBDiagram](https://dbdiagram.io/home)
 
-wireframe.cc
+[Wireframe.cc](https://wireframe.cc/)
 
-StableDiffusion (good AI art Tool): https://stablediffusionweb.com/#demo
+[StableDiffusion:](https://stablediffusionweb.com/#demo)
 
-figma  - https://www.youtube.com/watch?v=_A_Jpr9HkGA&ab_channel=CJGammon [AI03: Build a Website with Midjourney, Figma & ChatGPT]
-(/imagine: ui/ux interface design side by side Behance Dribble, beautiful colorful creative app marketplace)
+[Figma](https://www.youtube.com/watch?v=_A_Jpr9HkGA&ab_channel=CJGammon) [AI03: Build a Website with Midjourney, Figma & ChatGPT]
+*ex. Midjourney/StableDiffusion prompt: (/imagine: ui/ux interface design side by side Behance Dribble, beautiful colorful creative app marketplace)*
 
-swagger readme (openaI?)
+[Swagger Readme](https://swagger.io/docs/open-source-tools/swagger-codegen/)
 
 
 to supplement: look up "mongoose hooks"
 
 
-Mod 3: A MERN Stack Application & TribleByte:
-
+### Mod 3: A MERN Stack Application & TribleByte:
 
 ~~~~~~~~~
 Overview
